@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Lateef Adeyekun">
+        <meta name="description" content="My web project">
+        <meta name="keywords" content="html, css, web, seo, web development">
+        <title>Dashboard</title>
+        <link rel="icon" href="./assets/img/favicon.jpg" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer"
+        >
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css" media="all">
+        <link rel="stylesheet" href="./assets/css/style.css" media="all">
+    </head>
+    <body>
+        <header>
+            <div class="container flex flex-between">
+                <div class="title">
+                    <h1>Dashboard</h1>
+                </div>
+                <div class="nav-search flex flex-between">
+                    <nav>
+                        <ul class="flex">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Profile</a>
+                            </li>
+                            <li>
+                                <a href="#">Settings</a>
+                            </li>
+                            <li>
+                                <a href="#">Logout</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="search grid-center">
+                        <form>
+                            <input type="text" placeholder="Search" required>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container dashboard grid-center">
+                <section>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Data Type</th>
+                                <th>Total</th>
+                                <th>Last 7 Days</th>
+                                <th>Latest Record</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="rounded-border-left"><span class="grid-center blue">U</span></td>
+                                <td>Registered users</td>
+                                <td>138</td>
+                                <td>9</td>
+                                <td>May 7</td>
+                                <td class="rounded-border-right"><button>Show more</button></td>
+                            </tr>
+                            <tr>
+                                <td class="rounded-border-left"><span class="grid-center red">A</span></td>
+                                <td>Registered articles</td>
+                                <td>79</td>
+                                <td>3</td>
+                                <td>May 13</td>
+                                <td class="rounded-border-right"><button>Show more</button></td>
+                            </tr>
+                            <tr>
+                                <td class="rounded-border-left"><span class="grid-center green">C</span></td>
+                                <td>Authors</td>
+                                <td>21</td>
+                                <td>1</td>
+                                <td>Apr 12</td>
+                                <td class="rounded-border-right"><button>Show more</button></td>
+                            </tr>
+                            <tr>
+                                <td class="rounded-border-left"><span class="grid-center purple">M</span></td>
+                                <td>Messages</td>
+                                <td>12</td>
+                                <td>2</td>
+                                <td>May 21</td>
+                                <td class="rounded-border-right"><button>Show more</button></td>
+                            </tr>
+                            <tr>
+                                <td class="rounded-border-left"><span class="grid-center yellow">V</span></td>
+                                <td>Visits</td>
+                                <td>895</td>
+                                <td>46</td>
+                                <td>May 22</td>
+                                <td class="rounded-border-right"><button>Show more</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </main>
+    </body>
+</html>
