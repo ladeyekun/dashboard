@@ -11,9 +11,6 @@
 }
 
 
-/**********************/
-/* General Rules      */
-/**********************/
 .container {
     width: min(100% - 32px, 1080px);
     margin-inline: auto;
@@ -33,6 +30,7 @@
 }
 
 body {
+    font-family: "Nunito Sans", "Noto Sans", Arial, sans-serif;
     background-color: var(--app-main-bg-color);
 }
 
@@ -54,7 +52,7 @@ header {
 
     h1 {
         line-height: 56px;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 600;
         color: var(--app-header-fore-color);
     }
@@ -130,7 +128,7 @@ table {
             text-align: left;
             color: #999DA6;
             font-size: 16px;
-            font-weight: 500;
+            font-weight: 600;
         }
     }
 
@@ -144,7 +142,7 @@ table {
 
         td {
             font-size: 16px;
-            font-weight: 400;
+            font-weight: 500;
             color: #566166;
             padding: 10px;
         }
